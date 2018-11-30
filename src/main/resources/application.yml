@@ -4,6 +4,17 @@ server:
 #    accept-count: 1
     max-connections: 100
     max-threads: 100
+    accesslog:
+      prefix: access_log
+      enabled: true
+      suffix: .log
+      buffered: true
+      directory: logs
+      pattern: common
+    basedir: ./logggg
+  servlet:
+    context-path: /boot    #SpringBoot 2.0开始context-path移到了servlet路径下
+
 
 
 
