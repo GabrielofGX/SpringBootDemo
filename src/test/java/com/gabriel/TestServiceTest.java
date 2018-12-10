@@ -1,17 +1,4 @@
 package com.gabriel;
-/*
- * Project: com.gabriel
- *
- * File Created at 2018/11/20
- *
- * Copyright 2016 CMCC Corporation Limited.
- * All rights reserved.
- *
- * This software is the confidential and proprietary information of
- * ZYHY Company. ("Confidential Information").  You shall not
- * disclose such Confidential Information and shall use it only in
- * accordance with the terms of the license.
- */
 
 import com.gabriel.service.TestService;
 import org.junit.Assert;
@@ -44,11 +31,3 @@ public class TestServiceTest {
 	}
 
 }
-/**
- * Revision history
- * -------------------------------------------------------------------------
- * <p>
- * Date Author Note
- * -------------------------------------------------------------------------
- * 2018/11/20 gabriel create
- */
