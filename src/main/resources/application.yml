@@ -11,9 +11,13 @@ server:
       buffered: true
       directory: logs
       pattern: common
-    basedir: ./logggg
+    basedir: ./log
   servlet:
     context-path: /boot    #SpringBoot 2.0开始context-path移到了servlet路径下
+
+jasypt:
+  encryptor:
+    password: zxQvr3U3kbzdwdR8xcYx7OihoTvAKPBY
 
 
 
